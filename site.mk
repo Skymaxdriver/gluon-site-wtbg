@@ -1,5 +1,5 @@
 GLUON_SITE_PACKAGES := \
-  gluon-mesh-batman-adv-15 \
+  	gluon-mesh-batman-adv-15 \
 	gluon-alfred \
 	gluon-announced \
 	gluon-autoupdater \
@@ -9,6 +9,7 @@ GLUON_SITE_PACKAGES := \
 	gluon-config-mode-geo-location \
 	gluon-config-mode-hostname \
 	gluon-config-mode-tunneldigger \
+	gluon-ebtables-filter-roguenets \
 	gluon-ebtables-filter-multicast \
 	gluon-ebtables-filter-ra-dhcp \
 	gluon-luci-admin \
