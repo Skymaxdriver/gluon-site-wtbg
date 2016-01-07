@@ -1,0 +1,22 @@
+# This file allows specifying additional repositories to use
+# when building gluon.
+#
+# In most cases, it is not required so don't add it.
+
+##	GLUON_SITE_FEEDS
+#		for each feed name given, add the corresponding PACKAGES_* lines
+#		documented below
+GLUON_SITE_FEEDS='ffrl_packages'
+
+##	PACKAGES_$feedname_REPO
+#		the  git repository from where to clone the package feed
+PACKAGES_FFRL_PACKAGES_REPO=https://github.com/ffrl/ffrl-packages.git
+
+
+##	PACKAGES_$feedname_COMMIT
+#		the version/commit of the git repository to clone
+PACKAGES_FFRL_PACKAGES_COMMIT=a68ed8eddc17652e37687c518341ac6075376683
+
+##  PACKAGES_$feedname_BRANCH
+#   the branch to check out
+PACKAGES_FFRL_PACKAGES_BRANCH=backports_2015.1.2
